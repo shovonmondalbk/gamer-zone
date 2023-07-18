@@ -1,0 +1,70 @@
+/* Work Sans Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 240px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#header-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+#header-title-color{
+    color: #ff42a5;
+}
+.header-menu ul{
+    display: flex;
+    align-items: center;
+}
+.header-menu li{
+    list-style: none;
+    padding-right: 24px;
+}
+.follow-us-icon{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+#header-logo-image{
+    width: 86px;
+    height: 40px;
+}
+
+.follow-us-icon{
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+#header-yt-icon{
+    width: 34px;
+    height: 24px;
+}
+#header-tiktok-icon{
+    width: 24px;
+    height: 24px;
+    padding-right: 24px;
+}
+.menu-text{
+    padding-left: 24px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
