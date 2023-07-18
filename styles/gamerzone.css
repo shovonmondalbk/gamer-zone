@@ -157,6 +157,48 @@ nav{
     
 }
 
+.online-games-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 7.5rem;
+}
+#online-games-title-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games-des{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    
+}
+.online-games-container{
+    display: flex;
+    padding: 1.25rem 15rem;
+    gap: 24px;
+}
+.online-games-poster{
+    width: 300px;
+    
+    border: 0;
+    border-radius: 16px;
+
+}
+
+.online-games-poster-des{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+
+
 
  /* Mobile Responsive */
 
@@ -206,6 +248,14 @@ nav{
     }
     .header-des-container{
         padding-left: 65px;
+    }
+
+    /* Online Games Responsive */
+
+    .online-games-container{
+        flex-direction: column;
+        padding: 0;
+        margin-left: 50px;
     }
     
    
