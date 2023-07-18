@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.4rem 15rem;
+    padding: 0 15rem;
 }
 .header-logo{
     display: flex;
@@ -75,6 +75,7 @@ nav{
 }
 .header-left{
     background-image: url('../images/Group\ 14.png');
+    background-size: auto;
     background-repeat: no-repeat;
     padding: 0 15rem;
 }
@@ -124,11 +125,15 @@ nav{
     font-weight: 500;
     margin: 10px;
 }
+.button-collection{
+    display: flex;
+    justify-content: space-around;
+}
 .button-1{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     display: inline-flex;
-    padding: 21px 40px;
+    padding: 1.25rem 2.5rem;
     gap: 10px;
     color: #FFF;
     font-size: 1.25rem;
@@ -140,14 +145,15 @@ nav{
 .button-2{
     border-radius: 48px;
     background: #4EC5F7;
-    padding: 21px 40px;
+    display: inline-flex;
+    padding: 1.25rem 2.5rem;
     gap: 10px;
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     border: 0;
-    margin-left: 6px;
+    margin-top: 2.5rem;
     
 }
 
@@ -171,6 +177,37 @@ nav{
     .follow-us-icon{
         margin-top: 1.25rem;
     }
+
+    /* Header responsive */
+
+    .header-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .header-right{
+        padding-right: 0;
+    }
+    .header-left{
+        padding: 0;
+        
+    }
+    .header-left-h3{
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    .header-left-title{
+        font-size: 4.2rem;
+    }
+    ..header-des img{
+        margin-left: 60px;
+    }
+    .header-des-text{
+        font-size: .8rem;
+    }
+    .header-des-container{
+        padding-left: 65px;
+    }
+    
    
 }
 
@@ -192,6 +229,23 @@ nav{
     }
     .follow-us-icon{
         margin-top: 1.25rem;
+    }
+
+    /* Header responsive */
+
+    .header-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .header-right{
+        padding-right: 0;
+    }
+    .header-left{
+        padding: 0;
+        
+    }
+    .header-des-container{
+        padding-left: 250px;
     }
    
 }
