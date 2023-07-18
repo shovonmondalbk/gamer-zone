@@ -11,16 +11,20 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 38px 240px;
+    padding: 2.4rem 15rem;
 }
 .header-logo{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
+}
+#header-logo-image{
+    width: 5.4rem;
+    height: 2.5rem;
 }
 #header-title{
     text-align: center;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
     color: #0B0223;
 }
@@ -33,38 +37,82 @@ nav{
 }
 .header-menu li{
     list-style: none;
-    padding-right: 24px;
+    padding-right: 1.5rem;
 }
 .follow-us-icon{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
     
 }
-#header-logo-image{
-    width: 86px;
-    height: 40px;
-}
+
 
 .follow-us-icon{
-    height: 56px;
+    height: 3.5rem;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 
 }
 #header-yt-icon{
-    width: 34px;
-    height: 24px;
+    width: 2.12rem;
+    height: 1.5rem;
 }
 #header-tiktok-icon{
-    width: 24px;
-    height: 24px;
-    padding-right: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 1.5rem;
 }
 .menu-text{
-    padding-left: 24px;
+    padding-left: 1.5rem;
     color: #3C354F;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
+
+
+
+ /* Mobile Responsive */
+
+@media screen and (max-width:576px) {
+    /* nav bar responsive */
+    nav{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .header-menu ul{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .header-menu li{
+        padding-top: 1.25rem;  
+       
+    }
+    .follow-us-icon{
+        margin-top: 1.25rem;
+    }
+   
+}
+
+/* Tablet Responsive */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    /* nav bar responsive */
+    nav{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .header-menu ul{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .header-menu li{
+        padding-top: 1.25rem;  
+       
+    }
+    .follow-us-icon{
+        margin-top: 1.25rem;
+    }
+   
+}
+
