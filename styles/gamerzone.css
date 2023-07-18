@@ -70,6 +70,86 @@ nav{
     font-weight: 500;
 }
 
+.header-container{
+    display: flex;
+}
+.header-left{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    padding: 0 15rem;
+}
+.header-left-h3{
+    margin: 0 auto;
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 9.25rem;
+}
+.header-left-title{
+    margin: 0 auto;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 5.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+
+
+.header-right{
+    padding-right: 15rem;
+}
+.header-right img{
+    width: 100%;
+    height: 100%;
+}
+.header-des{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+.header-des img{
+    width: 24px;
+    height: 24px;
+}
+.header-des-text{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 10px;
+}
+.button-1{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 2.5rem;
+}
+.button-2{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    margin-left: 6px;
+    
+}
 
 
  /* Mobile Responsive */
