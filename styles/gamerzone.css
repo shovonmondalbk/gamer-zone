@@ -320,7 +320,13 @@ nav{
     list-style: none;
     
 }
-
+.footer-copyright p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
 
  /* Mobile Responsive */
 
@@ -423,6 +429,43 @@ nav{
     }
     .button p{
         font-size: 12px;
+    }
+    /* Footer Responsive */
+    .footer-menu{
+        padding: 20px 0;
+    }
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;   
+        padding-right: 50px;
+        
+    }
+    .footer-menu li{
+        font-size: 12px; 
+    }
+    .footer-icon {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        padding-left: 50px;
+        
+    }
+    .footer-icon img{
+        ma
+    }
+   
+    .footer-menu2 ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;  
+        padding-right: 30px;
+        padding-left: 30px; 
+        
+    }
+    .footer-menu2 li{
+        font-size: 12px; 
     }
 
 }
