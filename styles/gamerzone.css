@@ -238,7 +238,8 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    padding: 20px 240px;
+    padding: 20px 220px;
+    
 }
 .button{
     display: flex;
@@ -246,6 +247,7 @@ nav{
     align-items: center;
     background: #FFF;
     padding: 5px 5px;
+    
 }
 .button:hover{
     color:  #FF42A5 ;
@@ -254,6 +256,11 @@ nav{
     border: 1px solid #FF42A5;
    
 
+}
+.button p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -346,11 +353,19 @@ nav{
         left: 80px;
         top: 180px;
     }
+    /* Menu section Responsive */
     .menu{
         
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 0;
+        justify-content: space-around;
+    }
+    .button img{
+        width: 20px;
+    }
+    .button p{
+        font-size: 12px;
     }
 
 }
@@ -428,6 +443,20 @@ nav{
         width: 200px;
         left: 80px;
         top: 140px;
+    }
+    /* Menu section Responsive */
+    .menu{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        justify-content: space-around;
+    }
+    .button img{
+        width: 24px;
+    }
+    .button p{
+        font-size: 16px;
     }
    
 }
